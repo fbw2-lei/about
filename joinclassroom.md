@@ -51,8 +51,26 @@ It's also possible that the solution repository already contains files to start 
 ### option 1: only work on github.com website in browser
 
 you can decide to only work in the browser to create the solution.
-_easy to miss_: the two links below the repository link to **add new** or **upload existing** files (from your disk).
 
+![create and upload links](https://github.com/fbw2-lei/about/blob/master/images/06%20-%2001%20work%20on%20github.jpg)
+
+_easy to miss_: the two links after Get Started with **creating a new file** and **upload and existing file** .
+
+#### create new file
+
+![create new file](https://github.com/fbw2-lei/about/blob/master/images/06%20-%2001a%20in%20browser%20-%20commit%20new%20file.jpg)
+
+provide a filename, content and a commit comment before klicking `commit changes`
+
+![upload files](https://github.com/fbw2-lei/about/blob/master/images/06%20-%2001b%20in%20browser%20-commit%20uploaded%20file.jpg)
+
+you can either drag and drop files from the graphical file manager or click the **choose your files** link to get a system default _file open_-dialog.
+
+provide a commit comment and klick `commit changes`
+  
+## done
+
+for an individual assignment this is the minimal path to submit a solution, teachers can proof.
   
 ### you gain acccess to a group repository to solve a task together with others
 - [ ] todo: extend manual to group assigments
