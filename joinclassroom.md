@@ -67,7 +67,17 @@ provide a filename, content and a commit comment before klicking `commit changes
 you can either drag and drop files from the graphical file manager or click the **choose your files** link to get a system default _file open_-dialog.
 
 provide a commit comment and klick `commit changes`
-  
+
+### option 2: New Local Repository on your machine
+
+Second option is to create a local repository on your computer.
+You can use the provided example commands to create the repository via terminal and connect it to the remote solution repository hosted by GitHub.
+
+![init code for local repository](https://github.com/fbw2-lei/about/blob/master/images/06%20-%2002%20init%20local%20repo%20and%20push%20to%20remote.jpg)
+
+make sure to execute these commands inside a newly created directory where no other repository exists.
+you can click the small copy-to-clipboard symbol on the right, open a terminal with `Ctrl+Alt+T`and paste the commands to the terminal window with `Ctrl+Shist+V`.
+
 ## done
 
 for an individual assignment this is the minimal path to submit a solution, teachers can proof.
