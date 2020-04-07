@@ -76,7 +76,7 @@ You can use the provided example commands to create the repository via terminal 
 ![init code for local repository](https://github.com/fbw2-lei/about/blob/master/images/06%20-%2002%20init%20local%20repo%20and%20push%20to%20remote.jpg)
 
 make sure to execute these commands inside a newly created directory where no other repository exists.
-you can click the small copy-to-clipboard symbol on the right, open a terminal with `Ctrl+Alt+T`and paste the commands to the terminal window with `Ctrl+Shist+V`.
+you can click the small copy-to-clipboard symbol on the right, open a terminal with `Ctrl+Alt+T`and paste the commands to the terminal window with `Ctrl+Shift+V`.
 
 ## done
 
