@@ -4,29 +4,35 @@
 
 all key combinations involving numbers, use the number keys above the letters (avoid num pad)
 
-opening a terminalwindow with Ctrl+ Alt + T
+opening a terminalwindow with `Ctrl+ Alt + T`
 
 clearing the terminal window
 
-$ clear
+`$ clear`
 
 show the history of previous terminal commands with history
 
-$ history
+`$ history`
 
 autocomplete filenames of the directories you can use the tab-key (between shift-hold and caret ^)
 
-$ cd Do(+ tab key) -> autocomplete to cd Documents/
+`$ cd Do`(+ tab key) -> autocomplete to cd Documents/
 
-Commands can be chained with && (double ampersand symbols) shift+6
+Commands can be chained with `&&` (double ampersand symbols) shift+6
 
-Output of commands can be redirected as input to other commands or filenames with >> (double greater than) > is located between left Shift and Y-key
+Output of commands can be redirected as input to other commands or filenames with `>>` 
+(double greater than) > is located between left Shift and Y-key
+
+example:
+`$ ll >> listing.txt`
+
+> this will redirect the output of the ll command (file details, 1 line per file) to the textfile listing.txt
 
 ### output strings
 
 you can write text to standard output (terminalwindow) with echo
 
-$ echo "something" 
+`$ echo "something" `
 
 
 ### moving around
