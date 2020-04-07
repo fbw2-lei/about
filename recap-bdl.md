@@ -34,12 +34,11 @@ you can write text to standard output (terminalwindow) with echo
 
 `$ echo "something" `
 
-
-### moving around
-
 changing password for current user:
 
 `$ passwd` 
+
+## moving around
 
 changing directories / cd
 
@@ -65,15 +64,15 @@ getting to the root (/) of the filesystem
 
 `$ cd /`
 
-## navigation , to list directories and files
+## navigation, to list directories and files
 
 printing the content of current directory to standard output
 
-$ ls 
+`$ ls`  
 
 list files as rows (one row per file/directory)
 
-$ ls -l
+`$ ls -l`
 
 -l provides  additional information about files:
 
@@ -110,9 +109,9 @@ so the owner can read, write and execute this file
 users of the group the file belongs to can read and write, but not execute
 others can only read.
 
-changing priviledges to files:
+### changing priviledges to files:
 
-$ chmod <flags> filename
+`$ chmod <flags> filename`
 
 <flags> is 3 decimal numbers representing a combination of binary flags for any access group
 (4) read permission
@@ -128,33 +127,33 @@ e.g. 755 means: all rights for owner and read+execute for group and other
 
 ### hidden files
 
-usually start with a dot character e.g. .bash_history
+usually start with a dot character e.g. `.bash_history`
 
 to view them use -a with ls command
 
-$ ls -a
+`$ ls -a`
 
 combine parameters -l -a 
 
-$ ls -l -a
+`$ ls -l -a`
 
 shortcuts
 
-$ ll (= ls -l -a)
+`$ ll` (= ls -l -a)
 
 ## creating, reading, modifying files
 
 use touch to create (bunches of) files
 
-$ touch <filename> <anotherfilename>
+`$ touch filename(s)`
 
 for existing files, touch updates the last-modified timestamp
 
 simple text editor inside the terminal
 
-$ nano
+`$ nano filename`
 
-menu at the bottom, commands with ^<letter> has to be execute with Ctrl+<letter>
+menu at the bottom, commands with ^+letter has to be execute with `Ctrl+Letter`
 commands with M-<letter> has to be executes with Alt+<letter>
 
 e.g. ^O (Ctrl+O) "write out" - to save the file to disk
