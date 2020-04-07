@@ -39,31 +39,31 @@ you can write text to standard output (terminalwindow) with echo
 
 changing password for current user:
 
-$ passwd 
+`$ passwd` 
 
 changing directories / cd
 
-$ cd 
+`$ cd `
 
 navigating to a specific directory
 
-$ cd <directoryname>
+`$ cd directoryname`
 
 navigating to the parent directory
 
-$ cd .. 
+`$ cd .. `
 
 navigating back to the last current directory
 
-$ cd -
+`$ cd -`
 
 navigating back home with tilde (Alt Gr + `+`)
 
-$ cd ~
+`$ cd ~`
 
 getting to the root (/) of the filesystem
 
-$ cd /
+`$ cd /`
 
 ## navigation , to list directories and files
 
