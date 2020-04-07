@@ -356,51 +356,51 @@ $ git config --global user.email "me@you.com"
 
 telling git, to record changes to specific (or all) files/directories
 
-$ git add <filename(s)>
-$ git add -A
+`$ git add **filename(s)**`
+`$ git add -A`
 
 ## commiting changes to a repository
 
-$ git commit -m "comment to describe, what changed" 
+`$ git commit -m "comment to describe, what changed"` 
 
 ## chaining staging and committing in one line
 
-$ git add -A && git commit -m "comment"
+`$ git add -A && git commit -m "comment"`
 
 or alternatively create a subcommand alias
 
-$ git config --global alias.<aliasname> '!git add -A && git commit'
+`$ git config --global alias.**aliasname** '!git add -A && git commit'`
 
 execute that alias
 
-$ git <aliasname> -m "commitment comment"
+`$ git **aliasname** -m "commitment comment"`
 
 ## creating new branches
 
-$ git branch <newbranchname>
-$ git checkout <branch>
+`$ git branch **newbranchname**`
+`$ git checkout **branch**`
 
 you can combine branching and checkout in one command
 
-$ git checkout -b <newbranch>
+`$ git checkout -b **newbranch**`
 
 ## connecting to a remotely hosted repository
 
-$ git remote add <remote-lable> <remote-URL>
+`$ git remote add **remote-lable** **remote-URL**`
 
 remote-URL is usually a github.com link (to the .git file)
 
 ## cloning from a remote repository
 
-$ git clone <URL> 
+`$ git clone **URL**`
 
 will ask you for username / password, if the repo is private
 
-this by default keeps a remote configuration to have label `origin` contected to <URL>, so you can use origin as label for pushing and pulling
+this by default keeps a remote configuration to have label `origin` contected to URL, so you can use origin as label for pushing and pulling
 
 ## pushing local changes to remote repository
 
-$ git push <remote-label> master
+`$ git push **remote-label** **master**`
 
 after cloning, your default label of the remote repository is `origin`
 
