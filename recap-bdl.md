@@ -403,9 +403,10 @@ this by default keeps a remote configuration to have label `origin` contected to
 
 after cloning, your default label of the remote repository is `origin`
 
+## set local repository to the current remote state
 
+`$ git reset --hard origin/master`
 
-
-
+> you lose your local changes...
 
 
