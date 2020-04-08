@@ -405,6 +405,7 @@ after cloning, your default label of the remote repository is `origin`
 
 ## set local repository to the current remote state
 
+`$ git fetch --all`
 `$ git reset --hard origin/master`
 
 > you lose your local changes...
